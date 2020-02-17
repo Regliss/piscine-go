@@ -1,2 +1,1 @@
-usr="$USER"
-echo "Hello $usr!"
+echo "Hello $USER!"
