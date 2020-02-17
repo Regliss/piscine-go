@@ -1,1 +1,2 @@
-printf "Hello %s!" $LOGNAME
+usr="$USER"
+echo "Hello $usr!"
