@@ -1,1 +1,1 @@
-ls -upm
+ls -upm | tr -d '[:space:]'
