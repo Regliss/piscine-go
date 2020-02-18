@@ -1,2 +1,2 @@
-find . -type f -name 'a*' -or -name 'z*' -or -name 'z*a!'
+find . -type f -name 'a*' -o -name '*z' -o -name 'z*' -a -name '*a!'
 
