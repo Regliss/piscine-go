@@ -14,7 +14,6 @@ func PrintComb2() {
 						z01.PrintRune(k)
 						z01.PrintRune(l)
 						z01.PrintRune('\n')
-						z01.PrintRune('1'+'2')
 						return
 					}
 					if j == l {
