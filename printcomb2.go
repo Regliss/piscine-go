@@ -51,4 +51,4 @@ func PrintComb2() {
 			}
 		}
 	}
-}
+}\n
