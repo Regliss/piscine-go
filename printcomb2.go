@@ -16,7 +16,7 @@ func PrintComb2() {
 						z01.PrintRune('\n')
 						return
 					}
-					if int(i) * 10 + int(j) < int(k) * 10 + int(l) {
+					if int(i)*10+int(j) < int(k)*10+int(l) {
 						z01.PrintRune(i)
 						z01.PrintRune(j)
 						z01.PrintRune(32)
