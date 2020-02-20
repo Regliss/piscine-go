@@ -38,7 +38,12 @@ func main() {
 	// fmt.Println(aStringFinalized)
 	// str := "Hello World!"
 	// piscine.PrintStr(str)
-	str := "Hello World!"
-	nb := piscine.StrLen(str)
-	fmt.Println(nb)
+	// str := "Hello World!"
+	// nb := piscine.StrLen(str)
+	// fmt.Println(nb)
+	a := 0
+	b := 1
+	piscine.Swap(&a, &b)
+	fmt.Println(a)
+	fmt.Println(b)
 }
