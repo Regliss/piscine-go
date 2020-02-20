@@ -1,7 +1,7 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 
 	piscine ".."
 )
@@ -36,6 +36,9 @@ func main() {
 	// fmt.Println(aString)
 	// fmt.Println(aStringChangeable)
 	// fmt.Println(aStringFinalized)
+	// str := "Hello World!"
+	// piscine.PrintStr(str)
 	str := "Hello World!"
-	piscine.PrintStr(str)
+	nb := piscine.StrLen(str)
+	fmt.Println(nb)
 }
