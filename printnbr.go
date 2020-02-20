@@ -37,3 +37,4 @@ func PrintNbr(n int) {
 	if last {
 		z01.PrintRune('8')
 	}
+}
