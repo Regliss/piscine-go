@@ -6,22 +6,24 @@ func Atoi(s string) int {
 	}
 	var result int = 0
 	Array := []rune(s)
-	Status := 0
 	Negative := 1
 	for i := range Array {
 		if CheckForValid(Array[i]) {
-			if Status != 2 {
+			if i == 0 {
 				if Array[i] == '+' {
-					Status++
+					Negative = 1
 				} else if Array[i] == '-' {
-					Status++
 					Negative = -1
 				} else {
 					result = result*10 + int(Array[i]) - '0'
 				}
+			} else {
+				if Array[i] == '+' || Array[i] == '-' {
+					return 0
+				} else {
+					result = result*10 + int(Array[i]) - '0'
+				}
 			}
-		} else {
-			return 0
 		}
 	}
 	return result * Negative
