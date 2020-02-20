@@ -24,6 +24,8 @@ func Atoi(s string) int {
 					result = result*10 + int(Array[i]) - '0'
 				}
 			}
+		} else {
+			return 0
 		}
 	}
 	return result * Negative
