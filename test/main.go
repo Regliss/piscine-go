@@ -82,7 +82,7 @@ func main() {
 	s6 := "-1234"
 	s7 := "++123+4"
 	s8 := "--123-4"
-	s9 := "23-4"
+	s9 := "-Invalid123"
 
 	n := piscine.Atoi(s)
 	n2 := piscine.Atoi(s2)
